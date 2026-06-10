@@ -1,0 +1,30 @@
+﻿# Python environments
+.venv/
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter output checkpoints
+*.nbconvert.ipynb
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local-only exports and temporary files
+*.tmp
+*.log
+~$*.xlsx
+~$*.docx
+
+# Large or sensitive data should not be committed by default
+06 Datasets/raw/*
+06 Datasets/external/*
+!06 Datasets/raw/.gitkeep
+!06 Datasets/external/.gitkeep
